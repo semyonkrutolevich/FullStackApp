@@ -1,0 +1,20 @@
+// create virtualenv
+virtualenv -p /usr/bin/python3 venv
+
+// activate virtualenv
+source venv/bin/activate
+
+
+//run, stop nginx
+sudo systemctl stop nginx
+sudo systemctl start nginx
+
+https://www.digitalocean.com/community/tutorials/nginx-ubuntu-18-04-ru
+
+// install npm and vue
+https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/
+https://cli.vuejs.org/guide/installation.html
+
+
+//delete git init
+rm -rf .git
