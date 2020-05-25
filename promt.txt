@@ -15,6 +15,15 @@ https://www.digitalocean.com/community/tutorials/nginx-ubuntu-18-04-ru
 https://www.taniarascia.com/how-to-install-and-use-node-js-and-npm-mac-and-windows/
 https://cli.vuejs.org/guide/installation.html
 
+//npm runserver
+npm run serve
+
 
 //delete git init
 rm -rf .git
+
+
+//install sqlite3 Extensions
+ext install alexcvzz.vscode-sqlite
+Ctrl+P
+>sqlite
