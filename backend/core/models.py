@@ -8,3 +8,8 @@ class Car(models.Model):
     model = models.CharField(max_length=128)
     year = models.PositiveSmallIntegerField()
     engine_volume = models.PositiveIntegerField()
+
+    class Meta:
+        unique_together = [
+            ('vendor', 'model', 'year')
+        ]
