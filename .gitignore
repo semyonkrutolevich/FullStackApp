@@ -180,26 +180,11 @@ venv.bak/
 pip-selfcheck.json
 
 ### Vue ###
-.DS_*
-logs
-**/*.backup.*
-**/*.back.*
 
-node_modules
-bower_components
-
-*.sublime*
-
-psd
-thumb
-sketch
 
 ### Vuejs ###
 # Recommended template: Node.gitignore
 
-node_modules/
-npm-debug.log
-yarn-error.log
 
 # End of https://www.gitignore.io/api/vue,venv,vuejs,django,python
 
